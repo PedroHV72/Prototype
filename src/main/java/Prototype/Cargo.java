@@ -2,9 +2,9 @@ package Prototype;
 
 public class Cargo implements Cloneable{
     private String funcao;
-    private int salario;
+    private Float salario;
 
-    public Cargo(String funcao, int salario) {
+    public Cargo(String funcao, Float salario) {
         super();
         this.funcao = funcao;
         this.salario = salario;
@@ -18,11 +18,11 @@ public class Cargo implements Cloneable{
         this.funcao = funcao;
     }
 
-    public int getSalario() {
+    public Float getSalario() {
         return salario;
     }
 
-    public void setSalario(int salario) {
+    public void setSalario(Float salario) {
         this.salario = salario;
     }
 
